@@ -1,0 +1,123 @@
+/* ====== ESTILO GERAL ====== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #1b1b1b, #6ab58b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ====== CONTAINER ====== */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* ====== LOGO TEXTO ====== */
+.logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 3.2rem;
+}
+
+/* ====== CARD CENTRAL ====== */
+.card {
+  position: relative;
+  background: #fff;
+  border-radius: 14px;
+  padding: 2.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== LOGO TP ====== */
+.tp-icon {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -40px;
+  border-radius: 10px;
+}
+
+/* ====== BOTÕES DE LOJA ====== */
+.store-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 0.6rem 1.2rem;
+  width: 75%;
+  margin: 0.4rem 0;
+  transition: 0.3s;
+}
+
+.store-btn img {
+  width: 22px;
+}
+
+.store-btn span {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.store-btn:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* ====== LINK BOX ====== */
+.link-box {
+  margin-top: 1.5rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 280px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;       /* remove sublinhado do link */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.link-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.link-icon {
+  font-size: 1.2rem;
+  padding-left: 0.8rem;
+  color: #888;
+}
+
+.link-box input {
+  border: none;
+  padding: 0.8rem 0.5rem;
+  outline: none;
+  font-size: 1rem;
+  color: #007a5e;
+  text-align: left;
+  width: 100%;
+  background: none;
+  pointer-events: none; /* evita clique no input */
+}
+
+.arrow {
+  font-size: 1.4rem;
+  padding: 0 1rem;
+  color: #007a5e;
+}
